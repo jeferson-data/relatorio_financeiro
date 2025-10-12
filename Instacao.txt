@@ -1,0 +1,23 @@
+Requisitos:
+- Windows 10 ou superior
+- Conexão com internet
+- Navegador Google Chrome instalado
+- Python 3.10 ou 3.11 instalado
+
+Passo 1: Instalar Python
+- Baixe o Python em: https://www.python.org/downloads/
+- Durante a instalação, marque a opção "Add Python to PATH"
+
+Passo 2: Instalar dependências
+- Abra o Prompt de Comando (CMD)
+- Navegue até a pasta do projeto:
+cd C:\caminho\para\dashboard_financeiro
+
+- Instale as bibliotecas:
+pip install -r requirements.txt
+
+Passo 3: Executar o sistema
+streamlit run dashboard_financeiro.py
+
+O navegador abrirá automaticamente com a interface do sistema.
+
