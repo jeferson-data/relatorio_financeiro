@@ -1,44 +1,31 @@
 # 📊 Relatório Financeiro
 
-Sistema interativo desenvolvido com **Streamlit** para análise de dados financeiros, geração de gráficos e relatórios em PDF com base em diferentes planos de acesso (Básico, Intermediário, Avançado).
+## 📌 O Problema de Negócio
 
----
+Autônomos, micro e pequenas empresas frequentemente carecem de ferramentas acessíveis para analisar sua saúde financeira de forma profissional. Planilhas manuais não geram relatórios visuais, não calculam indicadores avançados (ROI, liquidez, margem) e não produzem documentos prontos para apresentação a investidores ou parceiros. Isso limita a capacidade de tomada de decisão e a credibilidade do negócio.
 
-## 🚀 Funcionalidades
+## 💡 A Solução
 
-- Upload de arquivos CSV com dados financeiros
-- Conversão automática de datas em múltiplos formatos
-- Cálculo de KPIs financeiros (lucro, margem, ROI, liquidez, etc.)
-- Visualização gráfica interativa com Plotly
-- Geração de relatórios em PDF com gráficos e indicadores
-- Insights automáticos sobre a saúde financeira da empresa
-- Filtros por período e plano contratado
+Desenvolvi um **sistema interativo em Streamlit** que permite o upload de dados financeiros (CSV), calcula automaticamente KPIs essenciais, gera gráficos interativos e produz **relatórios em PDF profissionais** com base em diferentes planos de acesso (Básico, Intermediário, Avançado). A ferramenta democratiza o acesso à análise financeira de qualidade para pequenos negócios.
 
----
+## 🎯 Resultados e Impacto
 
-## 📦 Instalação
+- **Automatização completa** da geração de relatórios financeiros (de horas para minutos).
+- **Cálculo automático de KPIs avançados:** Lucro, Margem, ROI, Liquidez, entre outros.
+- **Visualizações interativas** que facilitam a identificação de tendências e anomalias.
+- **Relatórios em PDF profissionais** prontos para apresentação a stakeholders.
+- **Insights automáticos** sobre a saúde financeira da empresa, auxiliando na tomada de decisão.
+- **Modelo de negócio escalável:** Diferentes planos de acesso (Básico, Intermediário, Avançado) permitem monetização do sistema.
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/SEU_USUARIO/relatorio_financeiro.git
+## 🛠️ Tecnologias Utilizadas
 
-2. Instale as dependências:
-pip install -r requirements.txt
+| Tecnologia | Finalidade |
+| :--- | :--- |
+| **Python 3.10+** | Linguagem base do projeto |
+| **Streamlit** | Interface web interativa |
+| **Pandas** | Processamento e análise de dados |
+| **Plotly** | Visualizações gráficas interativas |
+| **ReportLab** | Geração de relatórios em PDF |
+| **Kaleido** | Exportação de gráficos para PDF |
 
-3. execute o sistema:
-streamlit run dashboard_financeiro.py
-🧰 Requisitos- Python 3.10 ou superior
-- Navegador Google Chrome (recomendado para exportação de gráficos)
-- Bibliotecas: Streamlit, Pandas, Plotly, ReportLab, Kaleido
-
-📁 Estrutura do projetorelatorio_financeiro/
-├── dashboard_financeiro.py
-├── requirements.txt
-├── README.md
-└── INSTALACAO.txt
-
-🧠 AutorDesenvolvido por Jeferson Gomes
-📍 Porto Alegre, RS
-📬 jefe.gomes@outlook.com
----
-📜 LicençaEste projeto está sob a licença MIT.
+## 📂 Estrutura do Projeto
